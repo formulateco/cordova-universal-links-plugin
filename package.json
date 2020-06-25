@@ -1,7 +1,7 @@
 {
   "name": "cordova-universal-links-plugin",
   "version": "1.2.2",
-  "description": "Cordova plugin to add in your application support for Universal Links (iOS 9) and Deep Links (Android). Basically, open application through the link in the browser.",
+  "description": "Cordova plugin to add app support for Universal Links (iOS) and Deep Links (Android)",
   "cordova": {
     "id": "cordova-universal-links-plugin",
     "platforms": [
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nordnet/cordova-universal-links-plugin.git"
+    "url": "git+https://github.com/formulateco/cordova-universal-links-plugin.git"
   },
   "keywords": [
     "cordova",
@@ -43,9 +43,16 @@
     "plist": ">=1.2.0"
   },
   "author": "Nikolay Demyankov for Nordnet Bank AB",
+  "contributors": [
+    {
+      "name": "Chris Schmich",
+      "email": "chris.schmich@formulate.co",
+      "url": "https://www.formulate.co"
+    }
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nordnet/cordova-universal-links-plugin/issues"
+    "url": "https://github.com/formulateco/cordova-universal-links-plugin/issues"
   },
-  "homepage": "https://github.com/nordnet/cordova-universal-links-plugin#readme"
+  "homepage": "https://github.com/formulateco/cordova-universal-links-plugin#readme"
 }
