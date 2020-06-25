@@ -9,7 +9,7 @@
 var fs = require('fs');
 var path = require('path');
 var compare = require('node-version-compare');
-var IOS_DEPLOYMENT_TARGET = '8.0';
+var IOS_DEPLOYMENT_TARGET = '9.0';
 var COMMENT_KEY = /_comment$/;
 var context;
 
