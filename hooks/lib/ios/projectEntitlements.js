@@ -9,7 +9,6 @@ Script only generates content. File it self is included in the xcode project in 
 var path = require('path');
 var fs = require('fs');
 var plist = require('plist');
-var mkpath = require('mkpath');
 var context;
 
 module.exports = {
