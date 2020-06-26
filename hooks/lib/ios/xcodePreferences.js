@@ -9,6 +9,7 @@
 var fs = require('fs');
 var path = require('path');
 var compare = require('node-version-compare');
+var xcode = require('xcode');
 var IOS_DEPLOYMENT_TARGET = '9.0';
 var COMMENT_KEY = /_comment$/;
 var context;
@@ -59,8 +60,6 @@ function enableAssociativeDomainsCapability(context) {
  * - add .entitlements file to Code Sign Entitlements preference.
  */
 function activateAssociativeDomains(context, projFolder) {
-    var xcode = context.requireCordovaModule('xcode');
-
     var projectPath = path.join(projFolder, 'project.pbxproj');
     var pbxProject;
     if (context.opts.cordova.project) {

@@ -28,18 +28,19 @@
   "engines": [
     {
       "name": "cordova-ios",
-      "version": ">=3.8"
+      "version": ">=5.0.0"
     },
     {
       "name": "cordova-android",
-      "version": ">=4"
+      "version": ">=8.0.0"
     }
   ],
   "dependencies": {
     "mkpath": "1.0.0",
     "xml2js": "0.4.23",
     "node-version-compare": "1.0.2",
-    "plist": "3.0.1"
+    "plist": "3.0.1",
+    "xcode": "3.0.1"
   },
   "author": "Nikolay Demyankov for Nordnet Bank AB",
   "contributors": [
